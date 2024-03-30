@@ -17,6 +17,6 @@ sequenceDiagram
     SERVER-->>BROWSER: Responds Message: Note Created
     deactivate SERVER
 
-    Note over BROWSER: The spa.js send the new note and then add the new <ul> to the json.
+    Note over BROWSER: The spa.js send the new note and then add the new <ul> to the page.
     Note over BROWSER: The BROWSER renders the new item without reload the whole page or call again html,JS or CSS..
 ```
