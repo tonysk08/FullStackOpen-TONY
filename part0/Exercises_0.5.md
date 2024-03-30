@@ -1,6 +1,6 @@
 # Exercises 0.5: SPA Diagram 
 
-:::mermaid
+```mermaid
 sequenceDiagram
     Title: Single page app diagram
 
@@ -34,4 +34,4 @@ sequenceDiagram
     deactivate SERVER
 
     Note right of BROWSER: The browser executes the callback function that renders the notes
-:::
+```

@@ -1,6 +1,6 @@
 # Exercises 0.4: New note diagram
 
-:::mermaid
+```mermaid
 sequenceDiagram
     Title: 0.4: new note
 
@@ -44,4 +44,4 @@ sequenceDiagram
     deactivate SERVER
 
     Note right of BROWSER: The browser executes the callback function that renders the notes
-:::
+```

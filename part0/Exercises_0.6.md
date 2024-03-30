@@ -1,6 +1,6 @@
 # Exercises 0.6: New Note in SPA - Diagram 
 
-:::mermaid
+```mermaid
 sequenceDiagram
     Title: Add a New Note in SPA diagram 
 
@@ -19,4 +19,4 @@ sequenceDiagram
 
     Note over BROWSER: The spa.js send the new note and then add the new <ul> to the json.
     Note over BROWSER: The BROWSER renders the new item without reload the whole page or call again html,JS or CSS..
-:::
+```
